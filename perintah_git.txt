@@ -1,0 +1,35 @@
+Daftar Perintah Git
+
+- pwd 				-> Mengetahui direktori kerja
+- git init						-> Inisiasi sebuah folder menjadi git repository
+- git status						-> Mengetahui status file dalam git
+- git add <file> || .					-> Memasukkan file ke staging area
+- git rm --cached <file> || . 				-> Mengeluarkan file dari staging area
+- git commit -m "<Pesan>"				-> Commit perubahan file
+- git config --global user.email "kangealme@gmail.com"	-> setting email (biasanya ditanyakan waktu pertama kali commit)
+- git config --global user.name  "nama"			-> setting name (biasanya ditanyakan waktu pertama kali commit)
+- git commit -am "<Pesan>"				-> Commit untuk file yang diedit / bukan file baru
+- git log 						-> melihat log commit
+- git log -3						-> melihat log 3 terakhir
+- git log -- style.css					-> Melihat perubahan commit pada file tertentu
+- git checkout <randomnum7digit> <nama file op>		-> Kembali ke keadaan sesuai nomor commit
+- git branch <nama branch>				-> Pindah atau membuat branch						
+- git branch						-> Tampilkan daftar branch
+- git checkout <nama branc>				-> Pindah branch
+- git checkout -b <nama branch>				-> Buat branch sekaligus membuat
+- git merge <nama branch>				-> menggabungkan branc ke master
+- git branch --merged					-> mengetahui branc yang sudah dimerge
+- git branch -d <branch>				-> Hapus branch tertentu
+- git branch -D <branch>				-> Paksa hapus branch
+- git clone <url>					-> cloning dari server git
+- git remote						-> list remote server git
+- git remote -v (verbose)				-> list remote server git lebih lengkap
+- git push						-> upload commit ke server git
+- git remote add origin <url>				-> tambah remote git
+- git push <nama repo remote> <nama branch>		-> upload branch ke remote	
+- git pull <nama repo remote> <nama branch>		-> ambil dan merge dari remote
+- git fetch <nama repo remote> <nama branch>		-> ambil dari remote
+- git rebase master					-> memindahkan commit branch ke commit terakhir master
+
+
+
